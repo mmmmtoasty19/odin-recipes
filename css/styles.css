@@ -1,3 +1,62 @@
-* {
-  background-color: blanchedalmond;
+/* CSS HEX */
+:root {
+  --eerie-black: #1c1d21ff;
+  --ghost-white: #e8e9f3ff;
+  --silver: #cececeff;
+  --french-gray: #a6a6a8ff;
+  --non-photo-blue: #b1e5f2ff;
+}
+
+/* * {
+  outline: 2px solid red;
+} */
+
+body {
+  background-color: var(--ghost-white);
+  color: var(--eerie-black);
+}
+
+
+.title-text {
+  font-family: "Permanent Marker", cursive;
+  font-size: 56px;
+  text-align: center;
+  margin: auto;
+
+}
+
+
+.recipes-links-container {
+  background-color: var(--french-gray);
+  border: 2px solid var(--eerie-black);
+  border-radius: 25px;
+  margin: 50px auto;
+  width: 30%;
+  padding: 10px;
+
+}
+
+.recipe-link-button {
+  display: block;
+  font-family: "Atma", system-ui;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: var(--non-photo-blue);
+  color: var(--eerie-black);
+  border: 2px solid var(--eerie-black);
+  border-radius: 25px;
+  padding: 20px 34px;
+  text-align: center;
+  text-wrap: nowrap;
+  margin: 10px auto;
+  cursor: pointer;
+  width: 20%;
+}
+
+.recipe-button {
+  display: block;
+  
+  padding: 6px;
+  margin: 10px auto;
+  
 }
